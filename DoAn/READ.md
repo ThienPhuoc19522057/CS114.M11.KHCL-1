@@ -33,12 +33,16 @@ Dữ liệu chia làm 3 tập train/dev/test với tỉ lệ: 60/20/20
 # **Dự đoán người có đội mũ bảo hiểm hay không?**
 
 ## Bài toán dùng ở đâu và để làm gì:
-
-Dù đã có luật về việc bắt buộc đội mũ bảo hiểm đã ban hành từ tháng 6 năm 2001 nhưng đến nay vẫn còn nhiều trường hợp không chấp hành, gây nguy hiểm 
+Bài toán ứng dụng trong các thiết bị dám sát của các chú công an giao thông. Trợ giúp các chú công an trong việc phát hiện đối tượng không đội nón bảo hiểm khi tham gia giao thông
+Dù đã có luật về việc bắt buộc đội mũ bảo hiểm đã ban hành từ tháng 6 năm 2001 nhưng đến nay vẫn còn nhiều trường hợp không chấp hành, gây nguy hiểm, việc tăng cường các thiết bị hỗ trợ cho công an giao thông là điều cần thiết, giúp kiểm soát vi phạm giao thông tốt hơn, giảm thiểu tai nạn giao thông.
 
 ## Bài toán gồm:
+input: ảnh người tham gia giao thông.
+output: ảnh kèm theo bounding box và tên nhãn (có đội nón bảo hiểm và không đội nón bảo hiểm)
 
 ## Mô tả dữ liệu:
+Dự kiến data sẽ có 2000 tấm ảnh về người tham gia giao thông tỉ lệ train/test.
+Dataset sẽ được các thành viên thu thập bằng máy ảnh, thiết bị di động tầm thấp.
 
 ## Mô hình:
 
